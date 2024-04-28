@@ -40,6 +40,11 @@ Suppose you want to evaluate the expression `5 / 3 == 10 / 6`. Follow these step
 - `||`: logical OR
 - `&&`: logical AND
 
+
+##Screenshots
+![Screenshot 2024-04-28 231055](https://github.com/Cata039/Expression-Evaluator/assets/157022488/10516fb1-cd16-44b6-a965-69048bff74f4)
+
+
 ## Author
 
 Cata039

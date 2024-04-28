@@ -1,6 +1,5 @@
 # Expression Calculator
 
-This project is a simple web-based expression calculator that allows users to input mathematical and logical expressions and evaluates their truth value.
 
 ## Features
 

@@ -1,6 +1,6 @@
-# Expression Calculator
+# Expression Evaluator
 
-This is a straightforward web application that functions as an expression evaluator. It enables users to input both mathematical and logical expressions, which are then processed to determine their truth value.
+This is a straightforward web application that functions as an expression calculator. It enables users to input both mathematical and logical expressions, which are then processed to determine their truth value.
 
 ## Features
 

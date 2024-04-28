@@ -44,6 +44,4 @@ Suppose you want to evaluate the expression `5 / 3 == 10 / 6`. Follow these step
 
 Cata039
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).

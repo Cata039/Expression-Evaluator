@@ -1,14 +1,37 @@
-function calculate() {
-    var expression = document.getElementById('expression').value;
-    var result;
-    expression = expression.replace(/sqrt/g, 'Math.sqrt');
+function truthValue(expression) {
     try {
-        result = eval(expression);
-        if (isNaN(result)) {
+        const operators = {
+            '>': (a, b) => a > b,
+            '<': (a, b) => a < b,
+            '>=': (a, b) => a >= b,
+            '<=': (a, b) => a <= b,
+            '=': (a, b) => a === b,
+            '<>': (a, b) => a !== b,
+            '+': (a, b) => a + b,
+            '-': (a, b) => a - b,
+            '*': (a, b) => a * b,
+            '/': (a, b) => a / b,
+            '%': (a, b) => a % b,
+            '**': (a, b) => Math.pow(a, b),
+            '!': a => !a,
+            '||': (a, b) => a && b,
+            '&&': (a, b) => a || b
+        };
+
+        let result = eval(expression);
+
+        if (typeof result === 'boolean') {
+            return result;
+        } else {
             throw "Invalid expression";
         }
-        document.getElementById('result').innerHTML = 'Result: ' + result;
     } catch (error) {
-        document.getElementById('result').innerHTML = 'Error: ' + error;
+        return error.toString();
     }
+}
+
+function calculate() {
+    let expression = document.getElementById("expression").value;
+    let result = truthValue(expression);
+    document.getElementById("result").innerText = `${expression}: ${result}`;
 }

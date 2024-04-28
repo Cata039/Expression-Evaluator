@@ -42,7 +42,7 @@ Suppose you want to evaluate the expression `5 / 3 == 10 / 6`. Follow these step
 
 
 ##Screenshots
-![Screenshot 2024-04-28 231055](https://github.com/Cata039/Expression-Evaluator/assets/157022488/10516fb1-cd16-44b6-a965-69048bff74f4)
+![Screenshot 2024-04-28 231251](https://github.com/Cata039/Expression-Evaluator/assets/157022488/87914389-277c-4f38-a5ef-f5ef14ec81b0)
 
 
 ## Author
